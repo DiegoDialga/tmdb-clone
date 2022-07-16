@@ -3,9 +3,6 @@ import './App.css';
 import AddIcon from '@mui/icons-material/Add';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
-
-const API_KEY = 'f78a91453502c98c577f25573b223ef2';
-
 function App(){
   const [Data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
