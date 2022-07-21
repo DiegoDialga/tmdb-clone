@@ -29,12 +29,17 @@
   display: flex;
   justify-content: space-evenly;
 }
-.navbar > .itemsForNavbar1 > .insideElements{
+.navbar > .itemsForNavbar1 > .insideElements {
   color: white;
   width: 90px;
   font-weight: 500;
   margin-top: 5px;
 
+}
+
+.navbar > .itemsForNavbar1 > .insideElements > a{
+  text-decoration: none;
+  color: white;
 }
 
 .navbar > .itemsForNavbar2 > .insideElements{
@@ -44,6 +49,11 @@
   padding-right: 20px;
   margin-top: 5px;
 
+}
+
+.navbar > .itemsForNavbar2 > .insideElements > a{
+  color: white;
+  text-decoration: none;
 }
 
 .EnButton{
@@ -109,6 +119,7 @@
   line-height: 46px;
   margin-top: 50px;
 }
+
 
 input[type="text"]::placeholder {  
   padding-left: 20px; 
