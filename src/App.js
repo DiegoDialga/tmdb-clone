@@ -3,6 +3,9 @@ import './App.css';
 import AddIcon from '@mui/icons-material/Add';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
+
+const API_KEY = '';
+
 function App(){
   const [Data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -10,7 +13,7 @@ function App(){
   const fetchData = async() =>{
     setLoading(true);
     try{
-    const response = await fetch('https://api.themoviedb.org/3/tv/550?api_key=f78a91453502c98c577f25573b223ef2&language=en-US');
+    const response = await fetch('https://api.themoviedb.org/3/tv/550?api_key={}&language=en-US');
     const jsonResponse = await response.json();
     setLoading(false);
     setData(jsonResponse);
@@ -31,16 +34,16 @@ if(!loading){
     <div className='navbar'>
       <div className='itemsForNavbar1'>
         <img className='tmdbLogo' src='tmdbLogo.png' alt='' />
-        <div className='insideElements'>Movies</div>
-        <div className='insideElements'>TV Shows</div>
-        <div className='insideElements'>People</div>
-        <div className='insideElements'>More</div>
+        <div className='insideElements'><a href=''>Movies</a></div>
+        <div className='insideElements'><a href=''>TV Shows</a></div>
+        <div className='insideElements'><a href=''>People</a></div>
+        <div className='insideElements'><a href=''>More</a></div>
       </div>
       <div className='itemsForNavbar2'>
-        <div className='insideElements'><AddIcon fontSize='large' sx={{color: 'white'}}/></div>
-        <div className='insideElements'><button className='EnButton' onClick={null}>EN</button></div>
-        <div className='insideElements'><NotificationsIcon fontSize='medium' /></div>
-        <div className='insideElements'><img className='searchIcon' src = 'search icon.png' alt=''/></div>
+        <div className='insideElements'><a href=''><AddIcon fontSize='large' sx={{color: 'white'}}/></a></div>
+        <div className='insideElements'><a href=''><button className='EnButton' onClick={null}>EN</button></a></div>
+        <div className='insideElements'><a href=''><NotificationsIcon fontSize='medium' /></a></div>
+        <div className='insideElements'><a href=''><img className='searchIcon' src = 'search icon.png' alt=''/></a></div>
       </div>
     </div>
 
