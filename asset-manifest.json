@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DiegoDialga/tmdb-clone.git/static/css/main.fadb60b0.css",
+    "main.js": "/DiegoDialga/tmdb-clone.git/static/js/main.90f6f912.js",
+    "static/js/787.1748d078.chunk.js": "/DiegoDialga/tmdb-clone.git/static/js/787.1748d078.chunk.js",
+    "index.html": "/DiegoDialga/tmdb-clone.git/index.html",
+    "main.fadb60b0.css.map": "/DiegoDialga/tmdb-clone.git/static/css/main.fadb60b0.css.map",
+    "main.90f6f912.js.map": "/DiegoDialga/tmdb-clone.git/static/js/main.90f6f912.js.map",
+    "787.1748d078.chunk.js.map": "/DiegoDialga/tmdb-clone.git/static/js/787.1748d078.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fadb60b0.css",
+    "static/js/main.90f6f912.js"
+  ]
+}
